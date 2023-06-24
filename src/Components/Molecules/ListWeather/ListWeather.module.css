@@ -1,0 +1,13 @@
+.future-weather {
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .future-weather {
+    flex-wrap: wrap;
+  }
+}

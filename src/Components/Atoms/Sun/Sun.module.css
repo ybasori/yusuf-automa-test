@@ -1,0 +1,20 @@
+.sun {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: radial-gradient(#ffffbb, #f9a93b, #fbf67e);
+}
+
+.sun::before,
+.sun::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #fbf67e;
+  border-radius: 50%;
+  opacity: 0.3;
+  transform: scale(1.3);
+  box-shadow: 0 0 20px 10px #fbf67e;
+}

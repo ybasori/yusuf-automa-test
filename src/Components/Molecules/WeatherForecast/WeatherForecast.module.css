@@ -1,0 +1,25 @@
+.weather-forecast {
+  display: flex;
+  gap: 15px;
+  font-weight: 600;
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+.uv-index {
+  margin-left: auto;
+}
+.weather-forecast {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+.wfi-title {
+  color: #1a9fce;
+}
+.uv-value {
+  color: #fab34d;
+}
+.metric {
+  font-size: 12px;
+}

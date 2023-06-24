@@ -1,0 +1,65 @@
+.today-weather {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.detail-weather {
+  display: flex;
+}
+.temperature {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-weight: 600;
+}
+
+.temperature-main {
+  text-align: center;
+  font-size: 36px;
+}
+
+.temperature-left {
+  color: #1a9fce;
+  font-size: 24px;
+}
+.temperature-sparator {
+  color: #fff;
+  font-size: 24px;
+}
+.temperature-right {
+  color: #fab34d;
+  font-size: 24px;
+}
+
+.weather {
+  width: 170px;
+}
+
+.weather-container {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-text {
+  font-size: 18px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.weather-temperature {
+  color: #1a9fce;
+}
+.describe-weather {
+  font-size: 40px;
+  color: #1a9fce;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

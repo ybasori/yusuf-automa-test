@@ -1,0 +1,27 @@
+.container {
+  background-image: linear-gradient(to right, #15487a, #4a9caa, #a8e4ec);
+
+  padding: 60px 36px;
+  min-height: 100vh;
+  height: 100%;
+  box-sizing: border-box;
+}
+.main-weather {
+  margin-bottom: 36px;
+}
+.forecast {
+  margin-bottom: 12px;
+}
+.white-text {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:global(body) {
+  margin: 0px;
+}
+
+.select {
+  width: 160px;
+  margin: 0 0 0 auto;
+}
