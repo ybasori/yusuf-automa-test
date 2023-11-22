@@ -9,7 +9,7 @@ import InputSearch from "../../Components/Atoms/InputSearch/InputSearch";
 import { AppDispatch, RootState } from "../../store";
 import { useDispatch, useSelector } from "react-redux";
 import Select from "../../Components/Atoms/Select/Select";
-import { setKeyword } from "../../Domain/city/city.reducer";
+import { setKeyword } from "@/Domain/city/city.reducer";
 
 const Home: React.FC = () => {
   const {
