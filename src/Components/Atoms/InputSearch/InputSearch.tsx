@@ -1,13 +1,13 @@
 import React, { useCallback, useEffect, useState } from "react";
 import styles from "./InputSearch.module.css";
 import { useDispatch, useSelector } from "react-redux";
-import { AppDispatch, RootState } from "../../../store";
-import { getCity } from "../../../Domain/city/city.thunk";
-import { getForecast, getWeather } from "../../../Domain/weather/weather.thunk";
+import { AppDispatch, RootState } from "@/store";
+import { getCity } from "@/Domain/city/city.thunk";
+import { getForecast, getWeather } from "@/Domain/weather/weather.thunk";
 import {
   setCity,
   setKeyword as setKeywordRd,
-} from "../../../Domain/city/city.reducer";
+} from "@/Domain/city/city.reducer";
 
 const InputSearch = () => {
   const dispatch: AppDispatch = useDispatch();

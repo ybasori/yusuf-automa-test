@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 
 import styles from "./Home.module.css";
-import ListWeather from "../../Components/Molecules/ListWeather/ListWeather";
-import WeatherForecast from "../../Components/Molecules/WeatherForecast/WeatherForecast";
-import MainWeather from "../../Components/Molecules/MainWeather/MainWeather";
-import Sun from "../../Components/Atoms/Sun/Sun";
-import InputSearch from "../../Components/Atoms/InputSearch/InputSearch";
+import ListWeather from "@/Components/Molecules/ListWeather/ListWeather";
+import WeatherForecast from "@/Components/Molecules/WeatherForecast/WeatherForecast";
+import MainWeather from "@/Components/Molecules/MainWeather/MainWeather";
+import Sun from "@/Components/Atoms/Sun/Sun";
+import InputSearch from "@/Components/Atoms/InputSearch/InputSearch";
 import { AppDispatch, RootState } from "../../store";
 import { useDispatch, useSelector } from "react-redux";
-import Select from "../../Components/Atoms/Select/Select";
+import Select from "@/Components/Atoms/Select/Select";
 import { setKeyword } from "@/Domain/city/city.reducer";
 
 const Home: React.FC = () => {
