@@ -35,7 +35,7 @@ export const citySlice = createSlice({
       })
       .addCase(getCity.fulfilled, (state, { payload }) => {
         const dt = payload.data.geonames?.[0] ?? null;
-        console.log(state.keyword);
+        // console.log(state.keyword);
         if (`${state.keyword}`.toLowerCase() === `${dt.name}`.toLowerCase()) {
           state.city = dt;
         }

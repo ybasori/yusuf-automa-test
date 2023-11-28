@@ -90,8 +90,8 @@ const InputSearch = () => {
 
   useEffect(() => {
     if (cityState.keyword !== "") {
-      console.log("cityState.keyword");
-      console.log(cityState.keyword);
+      // console.log("cityState.keyword");
+      // console.log(cityState.keyword);
       setKeyword(cityState.keyword);
       dispatch(
         getCity({
